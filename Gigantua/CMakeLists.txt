@@ -1,12 +1,17 @@
 set(CMAKE_CXX_STANDARD 20)
 
 
-set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
-set(CMAKE_VERBOSE_MAKEFILE on)
+#set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
+#set(CMAKE_VERBOSE_MAKEFILE on)
 
-set(CMAKE_CXX_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
-set(CMAKE_C_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
-set(CMAKE_LD_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
+#set(CMAKE_CXX_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
+#set(CMAKE_C_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
+#set(CMAKE_LD_FLAGS "/clang:-O3 /clang:-march=x86-64-v3 /clang:-flto=auto")
+
+
+set(CMAKE_CXX_FLAGS "/clang:-march=x86-64-v3")
+set(CMAKE_C_FLAGS "/clang:-march=x86-64-v3")
+set(CMAKE_LD_FLAGS "/clang:-march=x86-64-v3")
 
 # take care of the main executable
 add_executable(Gigantua
