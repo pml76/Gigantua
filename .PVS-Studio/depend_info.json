@@ -37,5 +37,26 @@
         ],
         "dependencies": [],
         "id": 2
+    },
+    {
+        "arguments": [
+            "C:\\Program Files\\clang+llvm-19.1.6\\bin\\clang-cl.exe",
+            "/clang:-O3",
+            "/clang:-march=x86-64-v3",
+            "/clang:-flto=auto",
+            "/Ob0",
+            "/Od",
+            "/RTC1",
+            "-std:c++20",
+            "-MDd",
+            "-Zi",
+            "-flto=thin",
+            "/DPVS_STUDIO",
+            "/DPVS_VERSION_MAJOR=7",
+            "/DPVS_VERSION_MINOR=34",
+            "C:\\Users\\U439644\\CLionProjects\\Gigantua\\Gigantua\\Gigantua.cpp"
+        ],
+        "dependencies": [],
+        "id": 3
     }
 ]
